@@ -1,0 +1,54 @@
+div.ui.fluid.container.cardImage {
+  height: 300px;
+  width:auto;
+  background-image: url('/images/landing.jpg');
+  /*background-image: url('http://www.planwallpaper.com/static/images/vladstudio-squares-Cool-Background.jpg');*/
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#landingImage {
+  height: 300px;
+  width:auto;
+  background-image: url('/images/landing.jpg');
+  /*background-image: url('http://www.planwallpaper.com/static/images/vladstudio-squares-Cool-Background.jpg');*/
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+ .ui.header.cardText {
+   font-size: 80px;
+   text-align: center;
+   color: white;
+   vertical-align: middle;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ #landingTitle {
+   font-size: 100px;
+   text-align: center;
+   color: white;
+   vertical-align: middle;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+#reactCards{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#MainTitle{
+  font-size: 200px;
+  color: white;
+}
+
+body {
+  background-color: beige;
+}
