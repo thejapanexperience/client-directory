@@ -36,7 +36,7 @@ router.route('/')
       query.gt('lastVisit', parseInt(req.query.visitbefore));
     }
     if (req.query.allergy) {
-      query.where('allergies').in(req.query.allergy);
+      query.where('allergies').in([req.query.allergy]);
     }
 
     query
